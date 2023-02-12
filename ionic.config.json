@@ -1,0 +1,7 @@
+{
+  "name": "cap-local-notifications",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
