@@ -2,5 +2,18 @@
 	"appId": "io.ionic.starter",
 	"appName": "cap-local-notifications",
 	"webDir": "www",
-	"bundledWebRuntime": false
+	"bundledWebRuntime": false,
+  "npmClient": "npm",
+  "cordova": {},
+  "server": {
+    "url": "http://192.168.2.119:8100",
+    "cleartext": true
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_ac_unit",
+      "iconColor": "#FF0000",
+      "sound": "ask_out.mp3"
+    }
+  }
 }
